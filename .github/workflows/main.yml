@@ -1,12 +1,12 @@
 name : first
 
-//event
+# //event
 on: 
   push:
     branches: [main]
 
 jobs:
-  //job name
+  # //job name
   demo:
     runs-on: ubuntu-latest
 
