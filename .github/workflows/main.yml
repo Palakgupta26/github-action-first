@@ -1,0 +1,15 @@
+name : first
+
+//event
+on: 
+  push:
+    branches: [main]
+
+jobs:
+  //job name
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Greetings
+        run: echo "hello"
